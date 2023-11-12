@@ -32,4 +32,3 @@ var typeEffect = new Typed(".textform", {
   startDelay: 1000,
   backDelay: 1500
 });
-alert("null")
