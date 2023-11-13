@@ -296,7 +296,7 @@ a {
   transition: 0.5s;
   font-size: 30px;
 }
-#linkedin {
+.linkedin {
   position: absolute;
   top: 210px;
   right: 30px;
@@ -305,7 +305,7 @@ a {
   transition: 0.5s;
 }
 
-#linkedin:hover {
+.linkedin:hover {
   transition: 0.5s;
   font-size: 30px;
 }
