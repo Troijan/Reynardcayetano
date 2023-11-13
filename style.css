@@ -296,7 +296,19 @@ a {
   transition: 0.5s;
   font-size: 30px;
 }
+#linkedin{
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  font-size: 25px;
+  color: white;
+  transition: 0.5s;
+}
 
+#linkedin:hover {
+  transition: 0.5s;
+  font-size: 30px;
+}
 /*--------------Body---------------*/
 #about-container {
   border-top: 1px solid white;
