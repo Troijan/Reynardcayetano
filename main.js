@@ -32,4 +32,11 @@ var typeEffect = new Typed(".textform", {
   startDelay: 1000,
   backDelay: 1500
 });
-
+gsap.timeline({
+  scrollTrigger: {
+    scrub: 1,
+    trigger: ".scroll-trigger-ready__worm-wrap",
+    start: "top 90%",
+    end: "bottom 30%",
+  },
+});
