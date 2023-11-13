@@ -32,17 +32,4 @@ var typeEffect = new Typed(".textform", {
   startDelay: 1000,
   backDelay: 1500
 });
-const tl = gsap.timeline({
-  scrollTrigger: {
-    scrub: 1,
-    pin: true,
-    trigger: "#pin-windmill",
-    start: "50% 50%",
-    endTrigger: "#pin-windmill-wrap",
-    end: "bottom 50%",
-  },
-});
 
-tl.to("#pin-windmill-svg", {
-  rotateZ: 900,
-});
