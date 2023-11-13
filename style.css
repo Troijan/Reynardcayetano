@@ -5,24 +5,12 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
-body {
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  perspective: 10px;
-  margin: 0;
-  padding: 0;
-}
-html {
-  scroll-behavior: smooth;
-}
 header {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #212121;
   position: sticky;
-  transform-style: preserve-3d;
   z-index: 1;
   top: 0;
   width: 100%;
@@ -138,6 +126,7 @@ a {
 }
 
 #main-container {
+  overflow-y: hidden;
   position: absolute;
   border-radius: 2px;
   top: 70px;
@@ -714,7 +703,7 @@ h1 {
   border-radius: 2px;
   top: 2550px;
   width: 100%;
-  height: 900px;
+  height: 810px;
   background-color: #262626;
 }
 #Contacts {
@@ -742,7 +731,7 @@ h1 {
   width: 300px;
   height: 448px;
   top: 50px;
-  background-color: #121212;
+  /* background-color: #121212; */
   border-radius: 10px;
   box-shadow: 10px 15px 20px #3b2f2f;
 }
@@ -753,9 +742,9 @@ h1 {
   left: 20px;
   width: 260px;
   height: 40px;
-  border: none;
+  border: 1px solid whitesmoke;
   outline: none;
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   background-color: #262626;
   font-size: 1rem;
   font-family: "Poppins";
@@ -774,9 +763,9 @@ h1 {
   left: 20px;
   width: 260px;
   height: 40px;
-  border: none;
+  border: 1px solid whitesmoke;
   outline: none;
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   background-color: #262626;
   font-size: 1rem;
   font-family: "Poppins";
@@ -796,9 +785,9 @@ h1 {
   left: 20px;
   width: 260px;
   height: 40px;
-  border: none;
+  border: 1px solid whitesmoke;
   outline: none;
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   background-color: #262626;
   font-size: 1rem;
   font-family: "Poppins";
@@ -817,9 +806,9 @@ h1 {
   left: 20px;
   width: 260px;
   height: 40px;
-  border: none;
+  border: 1px solid whitesmoke;
   outline: none;
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   background-color: #262626;
   font-size: 1rem;
   font-family: "Poppins";
@@ -839,9 +828,9 @@ h1 {
   left: 20px;
   width: 260px;
   height: 150px;
-  border: none;
+  border: 1px solid whitesmoke;
   outline: none;
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
   background-color: #262626;
   font-size: 1rem;
   font-family: "Poppins";
@@ -856,7 +845,7 @@ h1 {
   position: absolute;
   background-color: #262626;
   border-radius: 8px;
-  border: none;
+  border: 1px solid whitesmoke;
   width: 140px;
   height: 40px;
   top: 400px;
@@ -922,4 +911,25 @@ h1 {
   font-family: "Poppins";
   top: 145px;
   left: 30px;
+}
+/*--------End of Contacts-------------*/
+#footer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #262626;
+  border-top: 1px solid white;
+  top: 3280px;
+  overflow: hidden;
+}
+#foot {
+  position: relative;
+  display: flex;
+  font-size: 0.7rem;
+  font-family: "Poppins";
+  left: 30px;
+  top: 270px;
+  height: 10px;
+  color: whitesmoke;
 }
