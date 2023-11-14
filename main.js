@@ -33,12 +33,12 @@ var typeEffect = new Typed(".textform", {
   backDelay: 1500
 });
 ScrollTrigger.create({
-  trigger: "#id",
+  trigger: "#main-container",
   start: "top top",
   endTrigger: "#otherID",
   end: "bottom 50%+=100px",
-  onToggle: (self) => console.log("toggled, isActive:", self.isActive),
-  onUpdate: (self) => {
+  onToggle: self => console.log("toggled, isActive:", self.isActive),
+  onUpdate: self => {
     console.log(
       "progress:",
       self.progress.toFixed(3),
@@ -47,5 +47,5 @@ ScrollTrigger.create({
       "velocity",
       self.getVelocity()
     );
-  },
+  }
 });
