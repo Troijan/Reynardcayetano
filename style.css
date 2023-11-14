@@ -19,6 +19,9 @@ header {
 #rey {
   color: crimson;
 }
+span {
+  color: crimson;
+}
 
 li {
   list-style: none;
@@ -243,7 +246,7 @@ a {
 
 .fb {
   position: absolute;
-  top: 80px;
+  top: 90px;
   right: 30px;
   font-size: 25px;
   color: white;
@@ -641,6 +644,10 @@ a {
   height: 40px;
   color: whitesmoke;
 }
+#web_btn:hover {
+  transition: 0.5s ease-out;
+  background-color: green;
+}
 #webBtn {
   position: relative;
   border: none;
@@ -653,7 +660,7 @@ a {
   height: 40px;
   color: whitesmoke;
 }
-#web_btn:hover {
+#webBtn:hover {
   transition: 0.5s ease-out;
   background-color: green;
 }
@@ -928,20 +935,40 @@ h1 {
 #footer {
   display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 300px;
+  height: 180px;
   background-color: #262626;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
   top: 3280px;
   overflow: hidden;
 }
 #foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  word-wrap: break-word;
+  font-size: 0.5rem;
+  font-family: "Poppins";
+  left: 90px;
+  top: 78px;
+  height: 0;
+  color: whitesmoke;
+}
+.main-footer {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  padding: 5px;
+  top: -30px;
+  left: -80px;
+  height: 0;
+}
+#main-links {
   position: relative;
   display: flex;
-  font-size: 0.7rem;
-  font-family: "Poppins";
-  left: 30px;
-  top: 270px;
-  height: 10px;
-  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
 }
